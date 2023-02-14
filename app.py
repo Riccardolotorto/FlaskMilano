@@ -16,5 +16,22 @@ def milano():
 def monumenti():
     return render_template("immagini.html")
 
+@app.route("/duomo")
+def duomo():
+    return render_template("duomo.html")
+
+@app.route("/castello")
+def castello():
+    return render_template("castello.html")
+
+@app.route("/cenacolo")
+def cenacolo():
+    return render_template("cenacolo.html")
+
+@app.route("/sansiro")
+def sansiro():
+    return render_template("san_siro.html")
+
+
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=3245, debug=True)

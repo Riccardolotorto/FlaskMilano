@@ -1,9 +1,20 @@
 <html>
     <head>
         <title>Monumenti Milano</title>
+        <link rel = "stylesheet" href = "{{url_for('static', filename='css/style.css')}}">
     </head>
     <body>
-        <img src = "" >
-        <img src = "" >
+        <div>
+            <h1 class="coloreRosso stile">ECCO I PRINCIPALI MONUMENTI DI MILANO</h1>
+            <a href = "/duomo"><img src = "{{url_for('static', filename='images/duomo.jpg')}}" height="300", width="300"></a>
+            <a href = "/castello"><img src = "{{url_for('static', filename='images/castello.jpg')}}" height="300", width="300"></a>
+            <a href = "/cenacolo"><img src = "{{url_for('static', filename='images/cenacolo.jpg')}}" height="300", width="300"></a>
+            <a href = "/sansiro"><img src = "{{url_for('static', filename='images/san_siro.jpg')}}" height="300", width="300"></a>
+        </div>
+        <div class="fondo">
+            <footer>
+                <p class="centro">Sito eseguito da Lotorto Riccardo</p>
+            </footer>
+        </div>
     </body>
 </html>

@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+div {
+    text-align: center;
+}
+.coloreRosso {
+    color: red;
+}
+.stile {
+    font-family: Arial;
+    font-style: italic;
+}
+.fondo {
+    background-color: gold;
+    height: 30;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.centro {
+    text-align: center;
+    margin: auto;
+}
