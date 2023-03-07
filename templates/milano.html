@@ -4,6 +4,17 @@
         <link rel = "stylesheet" href = "{{url_for('static', filename='css/style.css')}}">
     </head>
     <body>
-        <p class="coloreRosso">Milano è una tipica città di pianura, che ha potuto espandersi in ogni direzione fino a conglobare i Comuni vicini in un unico, grande centro urbano. Milano è stata fondata dai Galli e conquistata poi dai Romani, essa sorge in un punto strategico del territorio, al centro della Pianura Padana.</p>
+        <p class="coloreRosso medio">Milano è una tipica città di pianura, che ha potuto espandersi in ogni direzione fino a conglobare i Comuni vicini in un unico, grande centro urbano. Milano è stata fondata dai Galli e conquistata poi dai Romani, essa sorge in un punto strategico del territorio, al centro della Pianura Padana.</p>
+        <div>
+            <a href ="https://www.comune.milano.it"><img src = "{{url_for('static', filename='images/citta.jpg')}}" height="500" width="800"></a>
+            <a href="/immagini" class="coloreBlu grande"><p>Vai alla pagina dei monumenti</p></a>
+        </div>
     </body>
+    <script>
+        window.alert("benventuo nel sito rigurdante la città di milano");
+        let nome = window.prompt("inserisci il tuo nome: ");
+        window.alert("il tuo nome è " + nome);
+        let a = 4;
+        window.alert(a + 4);
+    </script>
 </html>

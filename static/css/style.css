@@ -24,3 +24,12 @@ div {
     text-align: center;
     margin: auto;
 }
+.coloreBlu {
+    color: blue;
+}
+.grande {
+    font-size: 30px;
+}
+.medio {
+    font-size: 20px;
+}
